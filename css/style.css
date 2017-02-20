@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background: #212121;
+    box-sizing: border-box;
+    color: white;
+    padding: 2.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+article{
+    display: block;
+}
+
+#container{
+    text-align: center;
+    width: 100%;
+}
+
+.btn{
+    background: #607D8B;
+    color: white;
+    display: inline-block;
+    height: auto;
+    padding: 2rem;
+}
+    
+    a.btn:hover{
+        background: #455A64;
+        color: white;
+        cursor: pointer;
+    }
